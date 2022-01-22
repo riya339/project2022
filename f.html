@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login:Value added Course</title>
+    <link rel="stylesheet" href="f.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+</head>
+<body>
+
+     <div class="full-page" >
+        <div class="navbar">
+            <div>
+                <h1 style="font-family: cursive;" ><img src="logo+.jpg" class=image1  alt="trs" style="width:200px;height:70px;"></h1>
+            
+            </div>
+        </div>  
+    <section id="form1">     
+    <div class="form-box">`
+        <div class='button-box'>
+            <div id='btn'></div>
+                <button type='button'onclick='login()'class='toggle-btn'>Student</button>
+                <button type='button'onclick='admin()'class='toggle-btn'>Admin</button>
+            </div>
+          <form id='login' class='input-group-login'>
+            <input type='text'class='input-field'placeholder='Email Id' required >
+		    <input type='password'class='input-field'placeholder='Enter Password' required>
+		    <br>
+            <input type='checkbox'class='check-box'><span>Remember Password</span>
+            <a href="profile1.html" class='submit-btn'>Log in</a>
+            <br>
+            <a href="register.html"><i class="fas fa-user-graduate"></i>Register</a>  
+            <br>
+            <br>
+            <a href="forgotpass.html">Forgot Password</a>
+            <br>
+            <a href="home1.html" class='btn1'>Home</a>
+          </form>
+          <form id='admin' class='input-group-admin'>
+            <input type='text'class='input-field'placeholder='Email Id' required >
+            <input type='password'class='input-field'placeholder='Enter Password' required>
+            <br>
+            <input type='checkbox'class='check-box'><span>Remember Password</span>
+            <a href="profile1.html" class='submit-btn'>Log in</a>
+            <br>
+            <a href="register.html"><i class="fas fa-user-graduate"></i>Register</a>
+            <br>    
+            <br>
+            <a href="forgotpass.html">Forgot Password</a>
+            <br>
+            <a href="home1.html" class='btn1'>Home</a>
+          </form>
+        </div>   
+    </div>
+</section>
+
+    <script>
+        
+        var x=document.getElementById('login');
+		var y=document.getElementById('admin');
+		var z=document.getElementById('btn');
+		function admin()
+		{
+			x.style.left='-400px';
+			y.style.left='50px';
+			z.style.left='110px';
+		}
+		function login()
+		{
+			x.style.left='50px';
+			y.style.left='450px';
+			z.style.left='0px';
+		}
+	</script>
+	<script>
+        var modal = document.getElementById('login-form');
+        window.onclick = function(event) 
+        {
+            if (event.target == modal) 
+            {
+                modal.style.display = "none";
+            }
+        }
+    </script>   
+</body>
+</html>
