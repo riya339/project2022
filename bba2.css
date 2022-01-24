@@ -183,22 +183,39 @@ h2{
   width: (100% - 70px);
   margin-left: 70px;
 }
-.wrapper .main_container .video{
+.wrapper .main_container .Syllabus{
   background: #fff;
   margin-bottom: 10px;
-  padding: 15px;
-  font-size: 30px;
+  padding: 12px;
+  font-size: 14px;
   line-height: 25px;
-  text-align: center;
+  text-align: justify;
   padding-top: 20px;
   text-orientation: center;
-  font-family: monospace;
+
 
 }
 .wrapper .main_container .item h3{
   font-size: 30px;
   font-family: monospace;
 }
-.video h3{
-  font-family: monospace;
+.Syllabus .btn1
+  {
+    width: 25%;
+    padding: 8px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #49bde0;
+    color: rgb(8, 8, 8);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    text-align: center;
+  
+}
+.Syllabus h2
+{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #F37509;
 }
