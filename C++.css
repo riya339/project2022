@@ -31,6 +31,7 @@ font-size: 70px;
 h2{
   color: white;
   font-size: 30px;
+  text-shadow: 2px 2px #c67be9;
 }
 .wrapper .top_navbar .hamburger{
   width: 70px;
@@ -157,6 +158,11 @@ h2{
   padding: 15px;
   transition: all 0.3s ease;
 }
+.item li{
+
+        list-style-type:disc;
+        size: 10px;
+}
 
 .wrapper .main_container .item{
   background: #fff;
@@ -165,12 +171,7 @@ h2{
   font-size: 14px;
   line-height: 22px;
 }
-.item li{
-
-        list-style-type:disc;
-        size: 10px;
-}
-
+                                     
 .wrapper.collapse .sidebar{
   width: 70px;
 }
@@ -191,12 +192,39 @@ h2{
   width: (100% - 70px);
   margin-left: 70px;
 }
-.wrapper .main_container .video{
+.wrapper .main_container .Syllabus{
   background: #fff;
   margin-bottom: 10px;
-  padding: 15px;
+  padding: 12px;
   font-size: 14px;
-  line-height: 22px;
-  text-align: center;
+  line-height: 25px;
+  text-align: justify;
+  padding-top: 20px;
+  text-orientation: center;
 
+
+}
+.wrapper .main_container .item h3{
+  font-size: 30px;
+  font-family: monospace;
+}
+.Syllabus .btn1
+  {
+    width: 25%;
+    padding: 8px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #49bde0;
+    color: rgb(8, 8, 8);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    text-align: center;
+  
+}
+.Syllabus h2
+{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #542e86;
 }
